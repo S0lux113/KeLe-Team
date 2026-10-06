@@ -1,0 +1,66 @@
+# ===== 操作系统生成的文件 =====
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini
+
+# ===== 编辑器 / IDE 配置 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# ===== Office / CAD 临时与锁文件 =====
+~$*
+*.tmp
+*.temp
+*.autosave
+
+# ===== 日志、缓存与临时目录 =====
+*.log
+logs/
+temp/
+tmp/
+cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# ===== 依赖目录（按需重新安装，不入库）=====
+node_modules/
+.venv/
+venv/
+
+# ===== 构建产物（可由源码重新生成）=====
+build/
+dist/
+out/
+bin/
+obj/
+cmake-build-*/
+*.o
+*.obj
+*.pyc
+*.class
+
+# ===== 本地环境与密钥（绝对不要提交）=====
+.env
+.env.*
+*.local
+*.key
+*.pem
+secrets.*
+credentials.*
+
+# ===== 压缩包与安装包（大文件，建议用 Release 附件分发）=====
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.iso
+
+# 例外：保留 docs 下有意归档的压缩资料
+!docs/**/*.zip
